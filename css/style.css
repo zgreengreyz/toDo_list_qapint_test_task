@@ -11,13 +11,20 @@ article{
 	width: 673px;
 	height: 497px;
 	margin: 0 auto;
-	background: url('../img/bg.jpg');
+	background: url('../img/bg.jpg') no-repeat;
 	background-size: 100% 100%;
+}
+#card-board{
+    width: 267px;
+    height: 326px;
+    background: url("../img/cardboard.png") no-repeat;
 }
 section{
 	width: 236px;
 	height: 289px;
-	background: white;
+    margin: auto;
+    padding-top: 18px;
+    background: url("../img/paper.png") no-repeat;
 }
 section header{
 	color: #545556;
