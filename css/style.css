@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('../font/HelveticaNeueCyr-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+article{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	width: 673px;
+	height: 497px;
+	margin: 0 auto;
+	background: url('../img/bg.jpg');
+	background-size: 100% 100%;
+}
+section{
+	width: 236px;
+	height: 289px;
+	background: white;
+}
+section header{
+	color: #545556;
+	font-family: 'HelveticaNeue';
+	font-weight: bold;
+}
+h1{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: end;
+}
