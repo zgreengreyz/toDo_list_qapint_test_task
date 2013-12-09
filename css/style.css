@@ -1,4 +1,3 @@
-
 @font-face {
 	font-family: 'HelveticaNeue';
 	src: url('../font/HelveticaNeueCyr-Bold.otf');
@@ -34,6 +33,56 @@ section header{
     background: url("../img/torn-paper.png");
 
 }
+#add{
+    width: 12px;
+    height: 16px;
+    position: relative;
+    bottom: 58px;
+    left: 214px;
+    border: none;
+    background: transparent url("../img/add.png") no-repeat;
+}
+.block {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    font-family: 'HelveticaNeue';
+    /*-webkit-box-align: end;*/
+    position: relative;
+    bottom: 106px;
+    left: 186px;
+    width: 64px;
+    height: 20px;
+    border: 1px solid #898a8c;
+    border-radius: 3px;
+    background: #6c6c6d;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    opacity: 0.5;
+}
+.block::after, .block::before {
+    content: '';
+    position: absolute;
+    background: #6c6c6d;
+    left: 27px;
+    bottom: -4px;
+    width: 8px; height: 8px;
+    z-index: -1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.block::before {
+    z-index: 1;
+}
+/*.block p{*/
+    /*text-align: center;*/
+    /*padding-top: 5px;*/
+    /*font-size: 10px;*/
+/*}*/
+#add:hover, .block:hover{
+    opacity: 0.5;
+}
+
 /*ul li{*/
     /*display: inline;*/
     /*border-right: ;*/
@@ -55,32 +104,35 @@ h1{
 }
 .tasks{
     position: relative;
-    bottom: 50px;
+    bottom: 73px;
     left: 16px;
     float: left;
 }
 .tasks *{
     float: left;
 }
+.tasks .checkbox{
+    border-style:inset;
+    border-width:5px;
+    border-color: #f00;
+    border-radius: 3px;
+}
 .tasks p{
     position: relative;
     left: 24px;
-    bottom: 17px;
+    bottom: 16px;
 }
 .tasks #remove{
     position: relative;
+    top: 3px;
     left: 100px;
-    width: 12px;
-    height: 16px;
+    width: 11px;
+    height: 12px;
+    border: none;
+    background: transparent url("../img/trash.png") no-repeat;
 }
 
 
 
 
-#add{
-    width: 12px;
-    height: 16px;
-    position: relative;
-    bottom: 64px;
-    left: 210px;
-}
+
