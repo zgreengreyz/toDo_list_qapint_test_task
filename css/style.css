@@ -34,14 +34,14 @@ section header{
     background: url("../img/torn-paper.png");
 
 }
-ul li{
-    display: inline;
-    border-right: ;
-    width: 6px;
-    height: 100%;
-    padding-left: 60px;
-    background: url("../img/hinges.png") no-repeat;
-}
+/*ul li{*/
+    /*display: inline;*/
+    /*border-right: ;*/
+    /*width: 6px;*/
+    /*height: 100%;*/
+    /*padding-left: 60px;*/
+    /*background: url("../img/hinges.png") no-repeat;*/
+/*}*/
 
 h1{
 	display: -webkit-box;
