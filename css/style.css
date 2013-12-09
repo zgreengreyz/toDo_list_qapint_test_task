@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: 'HelveticaNeue';
 	src: url('../font/HelveticaNeueCyr-Bold.otf');
@@ -11,28 +12,75 @@ article{
 	width: 673px;
 	height: 497px;
 	margin: 0 auto;
-	background: url('../img/bg.jpg') no-repeat;
+	background: url('../img/bg.jpg');
 	background-size: 100% 100%;
 }
 #card-board{
     width: 267px;
     height: 326px;
-    background: url("../img/cardboard.png") no-repeat;
+    background: url("../img/cardboard.png");
 }
 section{
+    position: relative;
+    top: 16px;
 	width: 236px;
 	height: 289px;
     margin: auto;
-    padding-top: 18px;
-    background: url("../img/paper.png") no-repeat;
+    background: url("../img/paper.png");
 }
 section header{
-	color: #545556;
-	font-family: 'HelveticaNeue';
-	font-weight: bold;
+    width: 236px;
+    height: 53px;
+    background: url("../img/torn-paper.png");
+
 }
+ul li{
+    display: inline;
+    border-right: ;
+    width: 6px;
+    height: 100%;
+    padding-left: 60px;
+    background: url("../img/hinges.png") no-repeat;
+}
+
 h1{
 	display: -webkit-box;
 	-webkit-box-pack: center;
 	-webkit-box-align: end;
+    font-family: 'HelveticaNeue';
+    font-weight: bold;
+    color: #545556;
+    position: relative;
+    bottom: 25px;
+}
+.tasks{
+    position: relative;
+    bottom: 50px;
+    left: 16px;
+    float: left;
+}
+.tasks *{
+    float: left;
+}
+.tasks p{
+    position: relative;
+    left: 24px;
+    bottom: 17px;
+}
+.tasks #remove{
+    position: relative;
+    left: 100px;
+    width: 12px;
+    height: 16px;
+}
+
+
+
+
+#add{
+    width: 12px;
+    height: 16px;
+    position: relative;
+    bottom: 64px;
+    left: 210px;
 }
