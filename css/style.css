@@ -95,28 +95,7 @@ h1{
     font-weight: bold;
     color: #545556;
 }
-.tasks{
-    position: relative;
-    top: 6px;
-    float: left;
-    width: 235px;
-    height: 37px;
-}
-.tasks *{
-    float: left;
-}
-.tasks .checkbox{
-    position: relative;
-    top: 10px;
-    left: 15px;
-    /*
-    border-style:inset;
-    border-width:5px;
-    border-color: #f00;
-    border-radius: 0px;
-    -webkit-box-shadow: 0px 0px 3px 2px rgba(244,183,216,1);
-    box-sizing: ;*/
-}
+
 .tasks p{
     position: relative;
     left: 40px;
@@ -132,7 +111,35 @@ h1{
     background: transparent url("../img/trash.png") no-repeat;
 }
 
-
-
-
-
+ul *{
+    float: left;
+    list-style: none;
+}
+ul li{
+    position: relative;
+    bottom: 11px;
+    right: 39px;
+    float: left;
+    width: 233px;
+    height: 37px;
+    border-bottom: 1px solid #ededed;
+}
+ul .checkbox{
+    position: relative;
+    top: 9px;
+    left: 15px;
+}
+ul span{
+    position: relative;
+    top: 9px;
+    left: 40px;
+}
+ul #remove{
+    position: relative;
+    top: 13px;
+    left: 129px;
+    width: 11px;
+    height: 12px;
+    border: none;
+    background: transparent url("../img/trash.png") no-repeat;
+}
