@@ -63,7 +63,7 @@ section header{
     font-size: 10px;
     line-height: 20px;
     color: #fff;
-    opacity: 0.5;
+    opacity: 0;
 }
 .block::after, .block::before {
     content: '';
@@ -94,6 +94,7 @@ h1{
     font-family: 'HelveticaNeue';
     font-weight: bold;
     color: #545556;
+	opacity: 1;
 }
 .tasks{
     position: relative;
