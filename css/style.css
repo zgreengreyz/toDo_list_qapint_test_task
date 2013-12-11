@@ -128,13 +128,13 @@ ul input:checked{
 }
 ul span{
     position: relative;
-    top: 9px;
-    left: 40px;
+    top: 10px;
+    left: 36px;
 }
 ul button{
     position: relative;
     top: 13px;
-    left: 129px;
+    left: 122px;
     width: 11px;
     height: 12px;
     border: none;
