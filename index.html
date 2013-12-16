@@ -1,29 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html manifest="cache.appcache">
 	<head>
 		<meta charset="UTF-8">
 		<title>To Do List</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-        <article>
-            <section>
-                <header>
-                    <h1 id="todo">Todo List</h1>
-                    <button id="add"></button>
-                    <div class="block">
-                        Add Task
-                    </div>
-                </header>
-                <ul>
-                    <li>
-                        <input type="checkbox"/>
-                        <span>Some text</span>
-                        <button id="remove"></button>
-                    </li>
-                </ul>
-            </section>
-        </article>
-		<script src="js/script.js"></script>
+	<article>
+		<section>
+			<header>
+				<h1 id="todo">Todo List</h1>
+
+				<div id="forms"></div>
+				<button id="add"></button>
+				<div class="block">
+					Add Task
+				</div>
+			</header>
+			<ul id="list">
+				<!--<li>-->
+					<!--<input type="checkbox"/>-->
+					<!--<span id="text-one"></span>-->
+					<!--<button id="remove"></button>-->
+				<!--</li>-->
+			</ul>
+		</section>
+		<article id="cover"></article>
+	</article>
+
+	<script src="js/script.js"></script>
 	</body>
 </html>
