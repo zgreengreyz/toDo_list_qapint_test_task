@@ -40,28 +40,19 @@
 		list.appendChild(node);
 	}
 
-	document.getElementById('add').addEventListener('click', function(){
+	document.getElementById('add').onclick = function(){
 		var input = document.createElement('input');
 		input.maxLength = 16;
 		input.id = "texthere";
 		addButton.id = "new";
 		addButton.innerText = 'add New';
-		var somediv = document.getElementById('forms');
+		var forms = document.getElementById('forms');
 		if(!itemAdded){
-			somediv.appendChild(input);
-			somediv.appendChild(addButton);
-		}
-		itemAdded = true;
+			forms.appendChild(input);
+			forms.appendChild(addButton);
+
 		var cloud = document.getElementById('todo');
 		cloud.style.opacity = 0;
-
-		var forms = document.getElementById('forms');
-		forms.style.opacity = 1;
-
-		node.addEventListener('click', function(){
-			forms.style.opacity = 0;
-			todo.style.opacity = 1;
-		});
 
 		document.getElementById('new').addEventListener('click', function(){
 			var val = input.value;
@@ -90,8 +81,11 @@
 			window.localStorage.setItem('timestamp', (new Date()).getTime());
 
 		});
+			}
+		itemAdded = true;
 
 
-	});
+	};
+
 
 })();
