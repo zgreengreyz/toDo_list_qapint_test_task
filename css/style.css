@@ -37,11 +37,6 @@ section header{
 	position: absolute;
 	left: 219px;
 	top: 67px;
-}
-.add{
-	position: relative;
-	left: 214px;
-	top: 24px;
 	width: 12px;
 	height: 16px;
 	border: none;
@@ -54,17 +49,6 @@ section header{
 	-webkit-box-align: end;
 	position: relative;
 	bottom: 40px;
-}
-.block{
-	display: none;
-}
-/*.block {
-	display: -webkit-box;
-	-webkit-box-pack: center;
-	font-family: 'HelveticaNeue';
-	-webkit-box-align: center;
-	position: relative;
-	bottom: 20px;
 	left: 186px;
 	width: 64px;
 	height: 20px;
@@ -74,8 +58,7 @@ section header{
 	font-size: 10px;
 	line-height: 20px;
 	color: #fff;
-	color: #fff;
-	opacity: 0.5;
+	opacity: 0;
 }
 .block::after, .block::before {
 	content: '';
@@ -91,12 +74,8 @@ section header{
 }
 .block::before {
 	z-index: 1;
-<<<<<<< HEAD
 }
 #add:hover, .block:hover{
-=======
-}*/
-.add:hover{
 	opacity: 0.5;
 }
 h1{
@@ -130,17 +109,25 @@ ul li{
 	height: 37px;
 	border-bottom: 1px solid #ededed;
 }
-ul input{
-	position: relative;
-	top: 9px;
-	left: 15px;
-}
 ul span{
 	position: relative;
 	top: 9px;
 	left: 40px;
+}
+ul button{
+	position: absolute;
+	top: 13px;
+	left: 211px;
+	width: 11px;
+	height: 12px;
+	border: none;
+	background: transparent url("../img/trash.png") no-repeat;
+}
+ul input{
 	-webkit-appearance: none;
 	position: relative;
+	top: 7px;
+	left: 11px;
 	width: 19px;
 	height: 19px;
 	border: 3px solid #f0f0f0;
@@ -155,26 +142,4 @@ ul input:checked{
 	border-radius: 5px;
 	/*background: url("../img/check.png");*/
 	background: url("../img/check-mark.png") no-repeat;
-}
-ul span{
-	position: relative;
-	top: 10px;
-	left: 36px;
-}
-ul button{
-	position: absolute;
-	top: 13px;
-	left: 211px;
-	right: 10px;
-	width: 11px;
-	height: 12px;
-	border: none;
-	background: transparent url("../img/trash.png") no-repeat;
-}
-[type="text"]{
-	position: absolute;
-	left: 60px;
-	-webkit-appearance: none;
-	width: 125px;
-	height: 20px;
 }
